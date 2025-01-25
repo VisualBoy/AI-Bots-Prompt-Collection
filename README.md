@@ -1,6 +1,6 @@
-# Repository  for Botsù
+# Repository  for Bots
 
-This guide outlines the structure of this repository, designed to organize and provide resources for various bots (bolt, cline, cursor). The repository is structured to clearly separate prompts, documentation, and resources for each bot.
+A collection of prompts and resources for various bots (bolt, cline, cursor). The repository is structured to clearly separate prompts, documentation, and resources for each bot.
 
 ## Repository Structure
 
