@@ -35,9 +35,7 @@ For destructive or complex topology changes, use the `bmesh` module to avoid con
 
 #### 1\. Extrusion and Transformation
 
-Python
-
-```
+```python
 import bpy, bmesh
 
 obj = bpy.context.edit_object
@@ -58,9 +56,7 @@ bmesh.update_edit_mesh(me)
 
 While `bpy.ops.object.modifier_add` is standard for Booleans, `bmesh` allows for immediate mesh-level cuts:
 
-Python
-
-```
+```python
 # Simple Bisect (Knife-like operation)
 bmesh.ops.bisect_plane(bm, geom=bm.verts[:] + bm.edges[:] + bm.faces[:], 
                        plane_co=(0,0,0), plane_no=(0,0,1), clear_outer=True)
@@ -83,9 +79,7 @@ bmesh.ops.bisect_plane(bm, geom=bm.verts[:] + bm.edges[:] + bm.faces[:],
 
 **Code Implementation Template (Selection & Verification)**
 
-Python
-
-```
+```python
 import bpy
 
 # Ensure Object Mode for data-level selection
