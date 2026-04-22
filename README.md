@@ -42,6 +42,8 @@ A collection of prompts and resources for various bots (bolt, cline, cursor). Th
 - **YouTube Videos**:
     A folder or markdown file linking to curated YouTube videos demonstrating bot functionality, tutorials, or use cases.
 
+- https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
+
 ## Contribution Guidelines
 
 - A `CONTRIBUTING.md` file explaining how others can contribute to the repository.
